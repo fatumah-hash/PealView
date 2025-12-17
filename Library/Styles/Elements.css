@@ -1,12 +1,12 @@
 /* Styles for the image gallery */
 .image-gallery {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     margin-top: 20px;
 }
 
 .image-gallery img {
-    width: 30%;
-    margin-bottom: 10px;
+    width: 80%; /* A larger width looks better in a single column */
+    margin-bottom: 20px; /* Increased space between vertical images */
 }
