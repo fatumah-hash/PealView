@@ -1,0 +1,12 @@
+/* Styles for the image gallery */
+.image-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.image-gallery img {
+    width: 30%;
+    margin-bottom: 10px;
+}
