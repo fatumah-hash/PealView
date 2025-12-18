@@ -3,10 +3,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .image-gallery img {
-    width: 80%; /* A larger width looks better in a single column */
-    margin-bottom: 20px; /* Increased space between vertical images */
+    width: 80%; 
+    margin-bottom: 40px; 
 }
